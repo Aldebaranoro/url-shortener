@@ -6,16 +6,16 @@ import com.github.aldebaranoro.urlshortener.service.dto.shorturl.ShortUrlInfo;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import javax.validation.Valid;
 
 import static com.github.aldebaranoro.urlshortener.web.Routers.ShortUrl.API_SHORTEN;
 
-@Controller
+@RestController
 @RequestMapping(API_SHORTEN)
 @RequiredArgsConstructor
 public class UrlShortenerController {

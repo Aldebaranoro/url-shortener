@@ -59,6 +59,6 @@ Content-Type: application/json
 
 For redirect to long url:
 
-```http request
+```plaintext
 GET http://localhost:8080/{my-link-name}
 ```

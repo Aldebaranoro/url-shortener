@@ -1,0 +1,1 @@
+web: java -Xmx256m -jar build/libs/url-shortener-*.jar --spring.profiles.active=default,prod --server.port=$PORT

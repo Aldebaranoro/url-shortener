@@ -3,4 +3,11 @@
                    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
                    https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <include file="changesets/2022/03/1648709752137-create-short-url-table.xml"
+             relativeToChangelogFile="true"/>
+
+    <include file="changesets/2022/03/1648709752138-create-custom-link-table.xml"
+             relativeToChangelogFile="true"/>
+
 </databaseChangeLog>
